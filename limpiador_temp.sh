@@ -4,7 +4,6 @@ echo "=============================================="
 echo "    LIMPIADOR DE ARCHIVOS TEMPORALES"
 echo "=============================================="
 
-
 if [ -d "$HOME/.cache" ]; then
 
     echo "Calculando cantidad de archivos temporales..."
@@ -25,4 +24,4 @@ else
     echo "La carpeta de caché no existe."
 fi
 
-echo "Fin del programa."
+# echo "Fin del programa."
